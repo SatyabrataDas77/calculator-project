@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=Poppins:wght@300;400&family=Roboto+Slab&family=Rubik+Bubbles&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: link rel="preconnect" href="https://fonts.gstatic.com" crossorigin;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    
+}
+.container{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input{
+    width: 313px;
+    height: 56px;
+    border: none;
+    padding: -5px 62px;
+    margin: 22px 12px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 42px;
+    text-align: right;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+input::placeholder{
+    color: aliceblue;
+    text-align: right;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;  
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px ;
+    cursor: pointer;
+}
+.one{
+    background-color: rgb(243, 88, 32);
+}
